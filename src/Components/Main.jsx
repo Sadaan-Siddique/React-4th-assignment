@@ -6,12 +6,12 @@ function Main() {
     return (
         <>
             <div>
-                <div className="div1 d-flex">
-                    <div>
-                        <img src="https://www.24newshd.tv/digital_images/large/2022-02-08/file-photo-1644316808-6002.jpeg" alt="Img" />
+                <div className="div1 row">
+                    <div className='div2 col-lg-6'>
+                        There are some things or special things that if you will see them ,I am sure you would also like them 
                     </div>
-                    <div>
-                        Some Text
+                    <div className='col-lg-6'>
+                        Some Text   
                     </div>
                 </div>
             </div>
