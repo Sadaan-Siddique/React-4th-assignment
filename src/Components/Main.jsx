@@ -6,11 +6,11 @@ function Main() {
     return (
         <>
             <div>
-                <div className="div1 ">
-                    
+                <div className="div1">
+                    hello
                 </div>
             </div>
-        </>
+        </> 
     )
 }
 

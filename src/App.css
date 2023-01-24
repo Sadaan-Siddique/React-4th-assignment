@@ -1,6 +1,16 @@
-.div1{
-  border: 2px solid red;
+nav{
+  background:transparent ;
+  width: 91.9vw;
 }
-.div2{
-  background-image: url('https://www.24newshd.tv/digital_images/large/2022-02-08/file-photo-1644316808-6002.jpeg');
+.div1{
+  /* border: 2px solid red; */
+  height: 92vh;
+  background-image: url('./Components/images/Background.jpg');
+  background-repeat: no-repeat;
+  background-size: 93% 85vh;
+}
+.footer-div{
+  width: 91.9vw;
+  position: relative;
+  bottom: 2vh;
 }
