@@ -6,8 +6,8 @@ function Main() {
     return (
         <>
             <div>
-                <div className="div1">
-                    hello
+                <div className="div1 text-light">
+                    <h1 className='hd1'>React Router</h1>
                 </div>
             </div>
         </> 

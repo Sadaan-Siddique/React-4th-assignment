@@ -5,9 +5,14 @@ nav{
 .div1{
   /* border: 2px solid red; */
   height: 92vh;
-  background-image: url('./Components/images/Background.jpg');
+  padding-left: 3%;
+  padding-top: 10%;
+  background-image:linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url('./Components/images/Background.jpg');
   background-repeat: no-repeat;
   background-size: 93% 85vh;
+}
+.hd1{
+  margin-left:20vh ;
 }
 .footer-div{
   width: 91.9vw;
