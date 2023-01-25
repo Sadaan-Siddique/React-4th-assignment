@@ -11,8 +11,8 @@ function Main() {
                     <div className='w-75 pb-2'>
                         <h1>React Router</h1>
                         <p>Click Button for see Pages without the Reloading of Page</p>
-                        <Link className="btn btn-outline-success" to="/products">Search</Link>
-                        <button>Services</button>
+                        <Link className="btn btn-outline-success" to="products">Products</Link>
+                        <Link className="btn btn-outline-success" to="services">Services</Link>
                     </div>
                 </div>
             </div>

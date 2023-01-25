@@ -4,6 +4,7 @@ import Nav from './Components/Nav';
 import Main from './Components/Main';
 import Footer from './Components/Footer';
 import Products from './Components/Products';
+import Services from './Components/Services';
 function App() {
   return (
     <div className="App">
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Main/>}/>
         <Route path='products' element={<Products/>}/>
+        <Route path='services' element={<Services/>}/>
       </Routes>
       <Footer/>
     </div>

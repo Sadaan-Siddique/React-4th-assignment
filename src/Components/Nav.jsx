@@ -16,7 +16,10 @@ function Nav() {
           <Link className="nav-link active" aria-current="page" to="/">Home</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/products">Products</Link>
+          <Link className="nav-link" to="products">Products</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" to="services">Services</Link>
         </li>
         <li className="nav-item dropdown">
           <a className="nav-link dropdown-toggle" to="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -28,9 +31,6 @@ function Nav() {
             <li><hr className="dropdown-divider"/></li>
             <li><a className="dropdown-item" to="">Something else here</a></li>
           </ul>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link disabled" to="" tabIndex="-1" aria-disabled="true">Disabled</a>
         </li>
       </ul>
       <form className="d-flex">
