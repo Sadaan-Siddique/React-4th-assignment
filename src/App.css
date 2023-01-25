@@ -1,6 +1,6 @@
 nav{
   background:transparent ;
-  width: 91.9vw;
+  padding: 20px;
 }
 .div1{
   /* border: 2px solid red; */
@@ -9,13 +9,14 @@ nav{
   padding-top: 10%;
   background-image:linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url('./Components/images/Background.jpg');
   background-repeat: no-repeat;
-  background-size: 93% 85vh;
+  background-size: 100% 91vh;
 }
-.hd1{
-  margin-left:20vh ;
+.div1 div{
+  margin: 4%;
+  text-align: center;
+  border: 2px solid red;
 }
 .footer-div{
-  width: 91.9vw;
   position: relative;
   bottom: 2vh;
 }
