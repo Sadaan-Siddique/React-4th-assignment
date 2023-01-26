@@ -1,8 +1,6 @@
 import React from 'react'
 import '../App.css'
 import { Outlet, Link } from "react-router-dom";
-import SectionOne from './SectionOne'
-import SectionTwo from './SectionTwo'
 function Main() {
     return (
         <>

@@ -1,18 +1,22 @@
 import React from 'react'
 import ProductsChild from './ProductsChild'
+import { Outlet, Link } from "react-router-dom";
 function Products() {
     let arr = [
         {
             img: 'https://content.api.news/v3/images/bin/b06bef9a5f8153a24f4abb07cbc2c11e?width=650',
-            title: 'Product 1'
+            title: 'Product 1',
+            to : '/'
         },
         {
             img: 'https://content.api.news/v3/images/bin/b06bef9a5f8153a24f4abb07cbc2c11e?width=650',
-            title: 'Product 1'
-        },
+            title: 'Product 1',
+            to : '/products'
+        },  
         {
             img: 'https://content.api.news/v3/images/bin/b06bef9a5f8153a24f4abb07cbc2c11e?width=650',
-            title: 'Product 1'
+            title: 'Product 1',
+            to : '/services'
         }
     ]
     let newArr = arr.map((item) => {
