@@ -1,21 +1,22 @@
 import React from 'react'
 import ProductsChild from './ProductsChild'
 import { Outlet, Link } from "react-router-dom";
+import Camera from './Camera';
 function Products() {
     let arr = [
         {
             img: 'https://content.api.news/v3/images/bin/b06bef9a5f8153a24f4abb07cbc2c11e?width=650',
-            title: 'Product 1',
-            to : '/'
+            title: 'Camera',
+            to : 'camera'
         },
         {
-            img: 'https://content.api.news/v3/images/bin/b06bef9a5f8153a24f4abb07cbc2c11e?width=650',
-            title: 'Product 1',
+            img: 'https://miro.medium.com/max/1400/1*agY3OHteeQfsEo94Tz42vw.jpeg',
+            title: 'Books',
             to : '/products'
         },  
         {
-            img: 'https://content.api.news/v3/images/bin/b06bef9a5f8153a24f4abb07cbc2c11e?width=650',
-            title: 'Product 1',
+            img: 'https://autodeals.pk/blog/wp-content/uploads/2022/11/Volkswagen-Works-Secretly-to-Develop-Hydrogen-Car.jpg',
+            title: 'Car',
             to : '/services'
         }
     ]
