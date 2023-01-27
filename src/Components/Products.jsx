@@ -2,6 +2,7 @@ import React from 'react'
 import ProductsChild from './ProductsChild'
 import { Outlet, Link } from "react-router-dom";
 import Camera from './Camera';
+import Book from './Book';
 function Products() {
     let arr = [
         {
@@ -12,12 +13,12 @@ function Products() {
         {
             img: 'https://miro.medium.com/max/1400/1*agY3OHteeQfsEo94Tz42vw.jpeg',
             title: 'Books',
-            to : '/products'
+            to : '/products/book'
         },  
         {
             img: 'https://autodeals.pk/blog/wp-content/uploads/2022/11/Volkswagen-Works-Secretly-to-Develop-Hydrogen-Car.jpg',
             title: 'Car',
-            to : '/services'
+            to : '/products/car'
         }
     ]
     let newArr = arr.map((item) => {
@@ -31,6 +32,7 @@ function Products() {
                 <div className="card" style={{ "width": "18rem" }}>
                     {newArr}
                 </div>
+
                 <Outlet/>
             </div>
 
