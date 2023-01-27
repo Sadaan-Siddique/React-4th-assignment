@@ -1,13 +1,14 @@
 import React from 'react'
 
-function Services() {
+function Car() {
   return (
     <>
     <div>
+        <h1>Car</h1>
         
     </div>
     </>
   )
 }
 
-export default Services
+export default Car

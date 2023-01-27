@@ -7,7 +7,7 @@ function Products() {
         {
             img: 'https://content.api.news/v3/images/bin/b06bef9a5f8153a24f4abb07cbc2c11e?width=650',
             title: 'Camera',
-            to : 'camera'
+            to : '/products/camera'
         },
         {
             img: 'https://miro.medium.com/max/1400/1*agY3OHteeQfsEo94Tz42vw.jpeg',
@@ -31,6 +31,7 @@ function Products() {
                 <div className="card" style={{ "width": "18rem" }}>
                     {newArr}
                 </div>
+                <Outlet/>
             </div>
 
         </>
