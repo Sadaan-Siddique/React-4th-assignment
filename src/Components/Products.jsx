@@ -39,7 +39,9 @@ function Products() {
                     <Link className="btn btn-outline-success" to="services">Books</Link>
                 </div>
                 <div className='col-lg-8 border border-2 border-info me-5'>
-                    hello
+                    <div className=''>
+                        {newArr}
+                    </div>
                 </div>
             </div>
             {/* <div>
