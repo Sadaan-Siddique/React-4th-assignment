@@ -1,6 +1,5 @@
 import React from 'react'
-import { Outlet, Link } from "react-router-dom";
-import Camera from './Camera';
+import { Link } from "react-router-dom";
 function ProductsChild(props) {
     return (
         <>

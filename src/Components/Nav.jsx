@@ -22,14 +22,14 @@ function Nav() {
           <Link className="nav-link" to="services">Services</Link>
         </li>
         <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" to="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <Link className="nav-link dropdown-toggle" to="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Dropdown
-          </a>
+          </Link>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a className="dropdown-item" to="/products">Action</a></li>
-            <li><a className="dropdown-item" to="/products">Another action</a></li>
+            <li><Link className="dropdown-item" to="/products">Action</Link></li>
+            <li><Link className="dropdown-item" to="/products">Another action</Link></li>
             <li><hr className="dropdown-divider"/></li>
-            <li><a className="dropdown-item" to="/products">Something else here</a></li>
+            <li><Link className="dropdown-item" to="/products">Something else here</Link></li>
           </ul>
         </li>
       </ul>
