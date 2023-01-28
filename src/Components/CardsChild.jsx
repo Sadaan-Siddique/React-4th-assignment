@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-function ProductsChild(props) {
+function CardsChild(props) {
     return (
         <>
             <div className="card" style={{ "width": "18rem" , border:'2px solid blue' }}>
@@ -16,4 +16,4 @@ function ProductsChild(props) {
     )
 }
 
-export default ProductsChild
+export default CardsChild

@@ -5,9 +5,7 @@ import Main from './Components/Main';
 import Footer from './Components/Footer';
 import Products from './Components/Products';
 import Services from './Components/Services';
-import Camera from './Components/Camera';
-import Car from './Components/Car';
-import Book from './Components/Book';
+import Cards from './Components/Cards';
 function App() {
   return (
     <div className="App">
@@ -15,9 +13,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Main />} />
         <Route path='products' element={<Products />}>
-          <Route path='camera' element={<Camera />} />
-          <Route path='book' element={<Book />} />
-          <Route path='car' element={<Car />} />
+          <Route path='cards' element={<Cards/>} />
         </Route>
         <Route path='services' element={<Services />} />
       </Routes>
