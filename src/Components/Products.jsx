@@ -1,9 +1,7 @@
 import React from 'react'
 import ProductsChild from './ProductsChild'
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import '../App.css'
-import Camera from './Camera';
-import Book from './Book';
 function Products() {
     let arr = [
         {
