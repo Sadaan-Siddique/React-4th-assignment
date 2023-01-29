@@ -52,11 +52,11 @@ function Products() {
     return (
         <>
             <div className='text-center'>
-                <h1>Here are some Products</h1>
+                <h1 className='mt-3 fw-bold'>Here are some Products</h1>
             </div>
             <div className='row text-center justify-content-between p-1'>
                 <div className='col-lg-2 ms-5 p-3'>
-                    <h2>Products</h2>
+                    <h2 className='fw-bold'>Products</h2>
                     {arr.map((item)=>{
                         return (<Link className={item.class} to={item.to}>{item.product}</Link>)
                     })}
