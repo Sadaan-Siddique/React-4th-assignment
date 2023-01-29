@@ -8,7 +8,7 @@ import react from './images/React.png'
 function Services() {
   return (
     <>
-      <div>
+      <div className='mb-5'>
         <h1 className='text-center fw-bold mt-3'>This is services</h1>
         <div className='ms-5 mt-5'>
           <div className='mt-1 d-flex '>
