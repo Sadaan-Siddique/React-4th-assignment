@@ -35,7 +35,7 @@ function Nav() {
       </ul>
       <form className="d-flex">
         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <Link className="btn btn-outline-success" to="/">Search</Link>
+        <Link className="btn btn-outline-light fw-bold" to="/">Search</Link>
       </form>
     </div>
   </div>

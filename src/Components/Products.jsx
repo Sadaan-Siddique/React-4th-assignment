@@ -2,24 +2,66 @@ import React from 'react'
 import { Outlet, Link } from "react-router-dom";
 import '../App.css'
 function Products() {
+    let arr = [
+        {
+            class : 'btn btn-outline-dark border-1 fw-bold d-block mt-1',
+            to : 'cards/motorcycle',
+            product : 'MotorCycle'
+        },
+        {
+            class : 'btn btn-outline-dark border-1 fw-bold d-block mt-1',
+            to : 'cards/car',
+            product : 'Car'
+        },
+        {
+            class : 'btn btn-outline-dark border-1 fw-bold d-block mt-1',
+            to : 'cards/laptops',
+            product : 'Laptops'
+        },
+        {
+            class : 'btn btn-outline-dark border-1 fw-bold d-block mt-1',
+            to : 'cards/cameras',
+            product : 'Cameras'
+        },
+        {
+            class : 'btn btn-outline-dark border-1 fw-bold d-block mt-1',
+            to : 'cards/books',
+            product : 'Books'
+        },
+        {
+            class : 'btn btn-outline-dark border-1 fw-bold d-block mt-1',
+            to : 'cards/watches',
+            product : 'Watches'
+        },
+        {
+            class : 'btn btn-outline-dark border-1 fw-bold d-block mt-1',
+            to : 'cards/shirt',
+            product : 'Shirt'
+        },
+        {
+            class : 'btn btn-outline-dark border-1 fw-bold d-block mt-1',
+            to : 'cards/helmets',
+            product : 'Helmets'
+        },
+        {
+            class : 'btn btn-outline-dark border-1 fw-bold d-block mt-1',
+            to : 'cards/jackets',
+            product : 'Jackets'
+        }
+    ]
     return (
         <>
             <div className='text-center'>
                 <h1>Here are some Products</h1>
             </div>
-            <div className='row text-center justify-content-between border border-2 border-primary p-1'>
-                <div className='col-lg-2 border border-2 border-danger ms-5 p-3'>
-                    <Link className="btn btn-outline-success d-block " to="cards/motorcycle">MotorCycle</Link>
-                    <Link className="btn btn-outline-success d-block " to="cards/car">Car</Link>
-                    <Link className="btn btn-outline-success d-block " to="cards/laptops">Laptops</Link>
-                    <Link className="btn btn-outline-success d-block " to="cards/cameras">Cameras</Link>
-                    <Link className="btn btn-outline-success d-block " to="cards/books">Books</Link>
-                    <Link className="btn btn-outline-success d-block " to="cards/watches">Watches</Link>
-                    <Link className="btn btn-outline-success d-block " to="cards/shirt">Shirt</Link>
-                    <Link className="btn btn-outline-success d-block " to="cards/helmets">Helmets</Link>
-                    <Link className="btn btn-outline-success d-block " to="cards/jackets">Jackets</Link>
+            <div className='row text-center justify-content-between p-1'>
+                <div className='col-lg-2 ms-5 p-3'>
+                    <h2>Products</h2>
+                    {arr.map((item)=>{
+                        return (<Link className={item.class} to={item.to}>{item.product}</Link>)
+                    })}
                 </div>
-                <div className='col-lg-8 border border-2 border-info me-5 p-3'>
+                <div className='col-lg-8 me-5 p-3'>
                     <div className=''>
                         <Outlet />
                     </div>
