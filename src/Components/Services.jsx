@@ -4,7 +4,9 @@ function Services() {
   return (
     <>
     <div>
-        <h1>This is services</h1>
+        <h1 className='text-center'>This is services</h1>
+        
+
     </div>
     </>
   )
