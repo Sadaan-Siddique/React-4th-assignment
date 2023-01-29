@@ -33,6 +33,7 @@ nav div div ul li:hover {
 .div1 {
   /* border: 2px solid red; */
   height: 92vh;
+  background-color: black;
   padding-top: 13%;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url('./Components/images/DarkBackground.jpg');
   background-repeat: no-repeat;
@@ -44,8 +45,6 @@ nav div div ul li:hover {
 }
 
 .footer-div {
-  position: relative;
-  bottom: 2vh;
 }
 
 .product-div {
@@ -62,8 +61,13 @@ nav div div ul li:hover {
   border-radius: 10px;
   box-shadow: 1px 1px 4px grey;
   margin: auto;
+  transition: all;
+  transition-duration: 0.5s;
+  padding: 2px;
 }
-
+.card-div:hover{
+  padding: 1px;
+}
 .card-div img {
   border-radius: 10px;
 }

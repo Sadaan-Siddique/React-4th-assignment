@@ -4,7 +4,7 @@ import FooterUl from './FooterUl'
 function Footer() {
     return (
         <div className='footer-div'>
-            <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 border-top bg-dark">
                 <FooterDiv />
                 <FooterUl />
 
